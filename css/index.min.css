@@ -30,10 +30,10 @@ body{font:12px/150% "jdlibianjian8d1b36a6717cc8",Arial,Verdana,"\5b8b\4f53";colo
                                                         50%{transform:translateY(-60%) translateX(-50%)}100%{transform:translateY(0) translateX(-50%)}
                                                     }.xl-page2 .bac-img2{width:100%;height:100%;z-index:-1;position:absolute;top:0;left:0}
 .xl-page2 .myname{font-size:30px;position:absolute;color:#000;top:20%;left:12%}.xl-page2 .postMark{position:absolute;top:12%;left:50%;z-index:1}
-.xl-page2 .postMark .mypho{width:22vw;height:30vw;line-height:31vw;position:absolute;top:49%;left:50%;z-index:-1;transform:translate(-50%,-50%)}
+.xl-page2 .postMark .mypho{width:20vw;height:30vw;line-height:31vw;position:absolute;top:49%;left:50%;z-index:-1;transform:translate(-50%,-50%)}
 .xl-page2 .postMark .ani-mypho{transform-origin:0 0;animation:ani-mypho 1s ease 1s both}
 @keyframes ani-mypho{0%{transform:scale(0.5) translate(-50%,-50%);opacity:0}
-    100%{transform:scale(1) translate(-50%,-50%);opacity:1}}.xl-page2 .postMark .frame{width:27vw;height:37vw;z-index:2;display:inline-block;background:url("../images/Frame.gif") no-repeat;background-size:27vw 37vw}
+    100%{transform:scale(1) translate(-50%,-50%);opacity:1}}.xl-page2 .postMark .frame{width:27vw;height:37vw;z-index:2;display:inline-block;background-size:27vw 37vw}
 .xl-page2 .postMark .ani-frame{animation:ani-frame .5s ease 1s both}@keyframes ani-frame{from{opacity:0}
                                                                         to{opacity:1}}.xl-page2 .qualified{width:50vw;height:20vw;position:absolute;top:28%;left:50%;z-index:4;transform:translateX(-50%)}
 .xl-page2 .ani-qualified{animation:ani-qualified 1s ease 5s both}@keyframes ani-qualified{from{transform:scale(1.6) translateX(-50%);opacity:0}
