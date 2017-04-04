@@ -33,7 +33,7 @@ body{font:12px/150% "jdlibianjian8d1b36a6717cc8",Arial,Verdana,"\5b8b\4f53";colo
 .xl-page2 .postMark .mypho{width:22vw;height:30vw;line-height:31vw;position:absolute;top:49%;left:50%;z-index:-1;transform:translate(-50%,-50%)}
 .xl-page2 .postMark .ani-mypho{transform-origin:0 0;animation:ani-mypho 1s ease 1s both}
 @keyframes ani-mypho{0%{transform:scale(0.5) translate(-50%,-50%);opacity:0}
-    100%{transform:scale(1) translate(-50%,-50%);opacity:1}}
+    100%{transform:scale(1) translate(-50%,-50%);opacity:1}}.xl-page2 .postMark .frame{width:27vw;height:37vw;z-index:2;display:inline-block;background-size:27vw 37vw}
 .xl-page2 .postMark .ani-frame{animation:ani-frame .5s ease 1s both}@keyframes ani-frame{from{opacity:0}
                                                                         to{opacity:1}}.xl-page2 .qualified{width:50vw;height:20vw;position:absolute;top:28%;left:50%;z-index:4;transform:translateX(-50%)}
 .xl-page2 .ani-qualified{animation:ani-qualified 1s ease 5s both}@keyframes ani-qualified{from{transform:scale(1.6) translateX(-50%);opacity:0}
