@@ -1,0 +1,73 @@
+@charset "UTF-8";html,body{width:100%;height:100%}html{font-size:16px}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0}
+fieldset,img,input,button{border:0;padding:0;margin:0;outline-style:none}ul,ol{list-style:none}
+select,input{vertical-align:middle}select,input,textarea{font-size:12px;margin:0}
+textarea{resize:none}img{border:0;vertical-align:middle}table{border-collapse:collapse}
+body{font:12px/150% "jdlibianjian8d1b36a6717cc8",Arial,Verdana,"\5b8b\4f53";color:#fff;font-family:"jdlibianjian8d1b36a6717cc8" !important;background:#fff}
+.clearfix:before,.clearfix:after{content:"";display:table}
+.clearfix:after{clear:both}.clearfix{*zoom:1}s,i,em{font-style:normal;text-decoration:none}
+.fl{float:left}.fr{float:right}html,body{width:100%;height:100%}html{font-size:16px}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0}
+fieldset,img,input,button{border:0;padding:0;margin:0;outline-style:none}ul,ol{list-style:none}
+select,input{vertical-align:middle}select,input,textarea{font-size:12px;margin:0}
+textarea{resize:none}img{border:0;vertical-align:middle}table{border-collapse:collapse}
+body{font:12px/150% "jdlibianjian8d1b36a6717cc8",Arial,Verdana,"\5b8b\4f53";color:#fff;font-family:"jdlibianjian8d1b36a6717cc8" !important;background:#fff}
+.clearfix:before,.clearfix:after{content:"";display:table}
+.clearfix:after{clear:both}.clearfix{*zoom:1}s,i,em{font-style:normal;text-decoration:none}
+.fl{float:left}.fr{float:right}.swiper-container{width:100%;height:100%;margin-left:auto;margin-right:auto}
+.swiper-slide{text-align:center;font-size:16px;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}
+.loading{width:100%;height:100%;background-color:#fff;position:relative}.loading .progress{width:80vw;height:10vw;position:absolute;top:40%;left:50%;transform:translate(-50%);background-color:yellow;border-radius:5px;background-image:linear-gradient(135deg,green 25%,transparent 25%,transparent 50%,green 50%,green 75%,transparent 75%,transparent 100%);background-size:40px 40px;background-position:0 0;animation:move 1.5s linear infinite}
+@keyframes move{from{background-position:0 0}to{background-position:40px 0}}.xl-page1{overflow:hidden}
+.xl-page1 .bac-img1{width:100%;height:100%;z-index:-1;position:absolute;top:0;left:0}
+.xl-page1 .round{width:40vw;height:40vw;border-radius:100%;box-sizing:border-box;background-color:rgba(255,255,255,0.8);position:absolute;top:11%;left:50%;transform:translateX(-50%);z-index:1;opacity:0}
+.xl-page1 .img-likeMe{width:18vw;height:36vw;position:absolute;top:12%;left:50%;transform:translateX(-50%);z-index:2;opacity:0}
+.xl-page1 .img-text-1{font-size:36px;color:#000;letter-spacing:10px;display:inline-block;margin-top:-22vh;z-index:3;opacity:0}
+.xl-page1 .tip{width:3vw;height:3vw;border-radius:50%;background-color:#000;position:absolute;top:50%;left:50%;transform:translateX(-50%);margin-top:0;opacity:0}
+.xl-page1 .tip2{background-color:rgba(0,0,0,0.9);margin-top:6vw}.xl-page1 .tip3{background-color:rgba(0,0,0,0.8);margin-top:12vw}
+.xl-page1 .tip4{background-color:rgba(0,0,0,0.7);margin-top:24vw}.xl-page1 .tip5{background-color:rgba(0,0,0,0.6);margin-top:30vw}
+.xl-page1 .tip6{background-color:rgba(0,0,0,0.5);margin-top:36vw}.img-handhlip{width:14vw;height:14vw;position:absolute;bottom:2%;left:50%;display:none;transform:translateX(-50%);z-index:99}
+.ani-shaking{animation:ani-shaking 2s ease infinite}@keyframes ani-shaking{0%{transform:translateY(0) translateX(-50%)}
+                                                        50%{transform:translateY(-60%) translateX(-50%)}100%{transform:translateY(0) translateX(-50%)}
+                                                    }.xl-page2 .bac-img2{width:100%;height:100%;z-index:-1;position:absolute;top:0;left:0}
+.xl-page2 .myname{font-size:30px;position:absolute;color:#000;top:20%;left:12%}.xl-page2 .postMark{position:absolute;top:12%;left:50%;z-index:1}
+.xl-page2 .postMark .mypho{width:22vw;height:30vw;line-height:31vw;position:absolute;top:49%;left:50%;z-index:-1;transform:translate(-50%,-50%)}
+.xl-page2 .postMark .ani-mypho{transform-origin:0 0;animation:ani-mypho 1s ease 1s both}
+@keyframes ani-mypho{0%{transform:scale(0.5) translate(-50%,-50%);opacity:0}
+    100%{transform:scale(1) translate(-50%,-50%);opacity:1}}.xl-page2 .postMark .frame{width:27vw;height:37vw;z-index:2;display:inline-block;background:url("../images/Frame.gif") no-repeat;background-size:27vw 37vw}
+.xl-page2 .postMark .ani-frame{animation:ani-frame .5s ease 1s both}@keyframes ani-frame{from{opacity:0}
+                                                                        to{opacity:1}}.xl-page2 .qualified{width:50vw;height:20vw;position:absolute;top:28%;left:50%;z-index:4;transform:translateX(-50%)}
+.xl-page2 .ani-qualified{animation:ani-qualified 1s ease 5s both}@keyframes ani-qualified{from{transform:scale(1.6) translateX(-50%);opacity:0}
+                                                                     to{transform:scale(1) translateX(-50%);opacity:1}}.xl-page2 .aboutMe{width:80vw;height:40vh;position:absolute;color:#000;font-size:18px;top:46%;left:15%}
+.xl-page2 .aboutMe .line{width:100%;height:100%;position:absolute;left:0;top:0;transform-origin:top;border-left:4px solid #000}
+.xl-page2 .aboutMe .ani-line{animation:linedown 2s ease 3s both}@keyframes linedown{from{height:0}
+                                                                    to{height:100%}}.xl-page2 .aboutMe .about{width:100%;height:16%;text-align:left;padding:10px 10px 10px 20px;font-weight:700;box-sizing:border-box}
+.xl-page3 .bac-img2{width:100%;height:100%;z-index:-1;position:absolute;top:0;left:0}
+.xl-page3 .skills{width:90vw;height:25vw;position:absolute;top:82%;right:-18%;transform:rotate(-30deg)}
+.xl-page3 .killRoll{width:20vw;height:20vw;position:absolute;top:20px;left:10vw;background-size:contain}
+.xl-page3 .killRoll2{left:40vw}.xl-page3 .killRoll3{left:70vw}.xl-page3 .killRoll4{top:30vw}
+.xl-page3 .killRoll5{top:30vw;left:40vw}.xl-page3 .killRoll6{top:30vw;left:70vw}.xl-page3 ul{position:absolute;top:34%;left:10%;width:80vw}
+.xl-page3 ul li{font-size:16px;font-weight:700;color:#000;padding:3px 0;text-align:left}
+.xl-page4{overflow:hidden}.xl-page4 .bac-img2{width:100%;height:100%;z-index:-1;position:absolute;top:0;left:0}
+.xl-page4 .workimg{width:60vw;height:20vw;position:absolute;top:60%;left:2%}.xl-page4 .line{width:1200px;height:3px;position:absolute;top:0;transform-origin:left;background-color:#000}
+.xl-page4 .line1{transform:rotate(45deg);left:0}.xl-page4 .line2{top:125%;right:0;transform-origin:right;transform:rotate(45deg)}
+.xl-page4 .line3{transform:rotate(-45deg);top:50%;left:0}.xl-page4 .line4{top:45%;right:0;transform-origin:right;transform:rotate(-45deg)}
+.xl-page4 .ani-line1{animation:linein1 1s ease .8s both}@keyframes linein1{from{width:0}
+                                                            to{width:1200px}}.xl-page4 .ani-line2{animation:linein2 1s ease 1.8s both}@keyframes linein2{from{width:0}
+                                                                                                                                          to{width:1200px}}.xl-page4 .ani-line3{animation:linein3 1s ease .3s both}@keyframes linein3{from{width:0}
+                                                                                                                                                                                                                       to{width:1200px}}.xl-page4 .ani-line4{animation:linein4 1s ease 1.3s both}@keyframes linein4{from{width:0}
+                                                                                                                                                                                                                                                                                                     to{width:1200px}}.xl-page4 ul{width:50vw;position:absolute;top:3%;left:13%;color:#000}
+.xl-page4 ul li{line-height:20px;text-align:center;letter-spacing:4px}.xl-page4 .uls2{top:17%;left:52%;font-weight:700}
+.xl-page4 .uls3{top:40%;left:13%;font-weight:700}.xl-page4 .uls4{top:78%;left:48%}
+.xl-page5{overflow:hidden}.xl-page5 .bac-img2{width:100%;height:100%;z-index:-1;position:absolute;top:0;left:0}
+.xl-page5 .weixin{width:35vw;height:35vw;border-radius:5px;box-shadow:5px 5px 5px rgba(0,0,0,0.5);position:absolute;top:70%;margin:0 auto}
+.xl-page5 .thanks{width:30vw;height:30vw;position:absolute;top:65%;left:-5px;opacity:0}
+.xl-page5 .windmill{width:45vw;height:45vw;position:absolute;top:-5%;right:-5%;z-index:100}
+.xl-page5 .P5textBox{width:100%;height:50%;position:absolute;top:0;left:0;color:#000;padding-left:10px;text-align:left;overflow:hidden;letter-spacing:3px}
+.xl-page5 .P5textBox p{display:none;margin-left:10px;position:relative}.xl-page5 .P5textBox .P5word1{margin-top:100px;font-size:60px;text-align:left}
+.xl-page5 .P5textBox .P5word2{margin-top:8vh;font-size:24px}.xl-page5 .P5textBox .P5word3{margin-top:8vh;font-size:40px}
+.xl-page5 .concact{width:100%;height:40%;position:absolute;top:50%;left:6%}.xl-page5 .concact li{color:#000;text-align:left;line-height:10vw;font-weight:700}
+.xl-page5 .concact img{width:8vw;float:left;margin-right:5px;margin-top:1vw;margin-right:10px}
+.xl-page5 .windroll{animation:windroll 3s linear infinite;transform-origin:center center}
+@keyframes windroll{from{transform:rotate(0)}to{transform:rotate(360deg)}}.xl-page5 .narrow{animation:narrow 1s ease 5s both}
+@keyframes narrow{from{transform:scale(2);opacity:0}to{transform:scale(1);opacity:1}
+}

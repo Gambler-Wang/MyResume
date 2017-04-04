@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'jdlibianjian8d1b36a6717cc8';
+    src: url('//cdn.webfont.youziku.com/webfonts/nomal/97480/19650/589edbaef629d813942ffdd6.gif');
+    src: url('//cdn.webfont.youziku.com/webfonts/nomal/97480/19650/589edbaef629d813942ffdd6.gif?#iefix') format('embedded-opentype'), url('//cdn.webfont.youziku.com/webfonts/nomal/97480/19650/589edbaef629d813942ffdd6.bmp') format('woff'), url('//cdn.webfont.youziku.com/webfonts/nomal/97480/19650/589edbaef629d813942ffdd6.jpg') format('truetype'), url('#jdlibianjian') format('svg');
+}
+
+.css8d1b36a6717cc8 {
+    font-family: 'jdlibianjian8d1b36a6717cc8';
+}
